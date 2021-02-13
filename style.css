@@ -1,0 +1,173 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.html1{
+    background-color:navajowhite;
+}
+
+.html2{
+    background-color:cornflowerblue;
+}
+
+.html3{
+    background-color: cyan;
+}
+
+.html4{
+    background-color:skyblue;
+}
+
+
+#logo{
+    width:7%;
+    height: 4%;
+    padding-top: 5px;
+    padding-left: 6px;
+    display: inline;
+    
+}
+
+.navbar{
+        display: inline;
+        font-size:17px;
+        position:relative;
+        margin-left: 58%;
+    }
+
+li{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline;
+    margin-right: 30px;
+    }
+
+.intro{
+    text-align: center;
+    font-weight: bold;  
+    font-size: 23px;  
+}
+
+.img-title{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    background-color: black;
+    color: lightgreen;
+    font-size:23px; 
+  }
+
+  #backimg{
+      width: 70%;
+      height: auto; 
+  }
+
+  .all-text{
+      padding-left: 70px;
+      padding-right: 70px;
+      justify-content: space-around;
+      font-size:18px;
+      text-align: center;
+      
+  }
+
+  .all-img1{
+      width:450px;
+      height: 300px;
+      display: inline-block;
+      padding-right: 100px;
+      padding-left: 100px;
+      margin-right: 10px;
+      margin-left: 30px;
+      padding-bottom: 1%;
+  }
+
+  .all-img2{
+    
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 1%;
+  }
+
+
+  
+  
+
+  .last-text{
+      display: flex;
+      flex-wrap:wrap;
+      flex-direction:row;
+  }
+
+  .contact-box{
+      background-color:thistle;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      font-size: 40px;
+     
+  }
+
+  #github-text{
+    text-decoration: underline;
+  }
+
+  #last-heading{
+      font-size: 37px;
+  }
+
+  .live{
+      border:teal;
+      margin-left: 545px;
+  }
+
+  .diff-color{
+    background-color:thistle;
+  }
+
+  #move{
+      align-items: center;
+      margin-left: 600px;
+  }
+
+  .waste-quote{
+    color: black;
+    font-size:20px;
+    background-color:lightyellow;
+    width:15%;
+    width: fit-content;
+  }
+
+  @media only screen and (max-width:688px){
+        .navbar{
+            font-size: 14px;
+            margin: -2% 0% 100% 2%;
+            text-align: start;
+        }
+        .intro{
+            font-size: 17px;
+        }
+        .centered{
+            font-size: 15px;
+        }
+        
+  }
+  
+  button {
+      font-size: 16px;
+      background-color: lightcyan;
+      border: none;
+  }
